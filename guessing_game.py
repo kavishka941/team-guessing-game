@@ -6,3 +6,8 @@ if guess == number:
  print("You win!")
 else:
  print(f"Wrong! The number was {number}")
+ while True: 
+    # (paste existing code here) 
+    print("Play again? (y/n)") 
+    if input().lower() != 'y': 
+        break 
